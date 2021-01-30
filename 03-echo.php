@@ -1,8 +1,8 @@
 <!-- Echo/Print -->
 <?php
-echo ("<h2>echo/print</h2> ");
-	echo "Hello world!<br>";
-	echo "I'm about to learn PHP!<br>";
-	echo "This ", "string ", "was ", "made ", "with multiple parameters.";
-	// koma kivabe use kore sir?
+echo ("<h1>echo/print</h1>");
+	echo "Hello world!"."<br>";
+	print "I'm about to learn PHP!,evabe koma use kora,jaabe?"."<br>";
+	print_r ("this string is for multiple data output");
+	// koma kivabe use kore?
 ?> 
