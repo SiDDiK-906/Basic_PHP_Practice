@@ -1,5 +1,6 @@
 <!-- Function -->
 <?php
+echo "<h1>Function Practice</h1> ";
 	function nameDetails($name,$year){
 		echo "i am $name,"." i was born in $year"."<br>";
 	}

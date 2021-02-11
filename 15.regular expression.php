@@ -1,6 +1,7 @@
-<!-- Constant -->
+<!-- Regular Expressions -->
 <?php
-echo ("<h2>constant</h2> ");
-	define("cars",["maruti","tata","lamborghini"]);
-	echo cars[1];
+echo ("<h2>Regular Expressions</h2> ");
+	$str = "Visit Microsoft!";
+	$pattern = "/microsoft/i";
+	echo preg_replace($pattern, "W3Schools", $str);
 ?>
