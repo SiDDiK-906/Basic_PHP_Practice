@@ -1,6 +1,10 @@
-<!-- Constant -->
+<!-- Function -->
 <?php
-echo ("<h2>constant</h2> ");
-	define("cars",["maruti","tata","lamborghini"]);
-	echo cars[1];
-?>
+	function nameDetails($name,$year){
+		echo "i am $name,"." i was born in $year"."<br>";
+	}
+	nameDetails("Md","1997");
+	nameDetails("Abu","1998");
+	nameDetails("Bakar","1999");
+	nameDetails("Siddik","2000");
+?> 
