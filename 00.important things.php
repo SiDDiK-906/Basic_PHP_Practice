@@ -1,5 +1,9 @@
 <!-- Some important short things -->
 <?php
+
+	// check php version
+	echo phpversion();
+	
 echo ("<h2>Questions</h2> ");
 	echo "Q1: "."<br>";
 	echo "Q2: how to use koma,<br>";
@@ -34,7 +38,6 @@ echo ("<h1>important functions & short things</h1> ");
 	echo "4.empty:"."<br>";
 		$str = "hello";
 		echo empty($str);
-	
 	
 	
 	
